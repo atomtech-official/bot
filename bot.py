@@ -4,7 +4,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 import openai
 from pymongo import MongoClient
 import os
-
+from config import OPENAI_KEy, MONGO_URL
 # Configure logging
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
