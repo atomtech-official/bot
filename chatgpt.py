@@ -5,7 +5,11 @@ import openai
 import os
 import time
 from datetime import datetime
-from config import API_ID, API_HASH, BOT_TOKEN, OPENAI_KEY, BOT_NAME, BOT_USERNAME, OWNER_USERNAME, SUPPORT_GROUP, START_IMG, UPDATE_CHANNEL, OWNER_ID
+from config import API_ID, API_HASH, BOT_TOKEN, OPENAI_KEY, BOT_NAME, BOT_USERNAME, OWNER_USERNAME, SUPPORT_GROUP, UPDATE_CHANNEL, OWNER_ID
+
+
+START_IMG = "https://telegra.ph//file/8d1f6280a0ec51d025860.jpg"
+
 
 # Logging configuration
 FORMAT = "[%(asctime)s] [%(levelname)s] [%(name)s] - %(message)s"
