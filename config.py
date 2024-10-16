@@ -3,7 +3,7 @@ import os
 # Telegram Bot Configuration
 API_ID = int(os.getenv('API_ID', '23781502'))
 API_HASH = os.getenv('API_HASH', '53fd41bf872ff90db953e48240c1b58c')
-BOT_TOKEN = os.getenv('BOT_TOKEN', '7409375565:AAHqOX7eqXy0yuoNhkYVqGkmud6ON1PYndU')
+BOT_TOKEN = os.getenv('BOT_TOKEN', '7808880786:AAEG8aUd4p0uOs6wGni-jkBcaEngeiqDduc')
 BOT_NAME = os.getenv('BOT_NAME', 'chattttt')
 BOT_USERNAME = os.getenv('BOT_USERNAME', 'uhidfgrgrebot')
 OWNER_ID = int(os.getenv('OWNER_ID', '7160721143'))
